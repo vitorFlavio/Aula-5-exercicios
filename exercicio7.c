@@ -7,7 +7,7 @@ int main(int argc, char *argv[])
     int l = 7, c = 8, i, j;
     int mat[l][c];
 
-    printf("Matriz 7x8\n");
+    printf("Matriz 7x8:\n");
     for (i = 0; i < l; i++)
     {
         for (j = 0; j < c; j++)

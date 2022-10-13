@@ -12,7 +12,7 @@ int main(int argc, char *argv[])
 
         for (j = 0; j < 3; j++)
         {
-            printf("Informe o %d° elemento", cont);
+            printf("Informe o %d° elemento: ", cont);
             scanf("%d", &mat[i][j]);
             cont++;
         }
